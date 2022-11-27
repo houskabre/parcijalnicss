@@ -24,6 +24,7 @@ main {
   align-items: center;
   background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_859%2Cw_1528&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
   background-size: cover;
+  overflow: hidden;
 }
 
 @keyframes Drop1 {
@@ -32,7 +33,7 @@ main {
   }
 }
 .flex1 {
-  padding: 8vw;
+  padding: 7vw;
   color: rgb(65, 12, 227);
   transform: translateX(-70vw);
   display: flex;
@@ -45,7 +46,7 @@ main {
 }
 
 .flex2 {
-  padding: 8vw;
+  padding: 7vw;
   transform: translateX(-70vw);
   color: rgb(155, 36, 36);
   border: 2px solid rgb(5, 5, 5);
@@ -58,7 +59,7 @@ main {
 }
 
 .flex3 {
-  padding: 8vw;
+  padding: 7vw;
   transform: translateX(-70vw);
   color: white;
   display: flex;
