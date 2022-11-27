@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 10%;
+  position: absolute;
+  top: -120vh;
+  display: flex;
+  column-count: 3;
+  column-gap: 40px;
+  flex-basis: 30%;
+  flex-shrink: 0;
+  flex-grow: 0;
+  font-size: 11vw;
+  color: black;
+  border: 1px solid white;
+  text-align: center;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_859%2Cw_1528&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
+  background-size: cover;
+}
+@keyframes Drop1 {
+  0% {
+    right: -90vw;
+  }
+  100% {
+    right: 0vw;
+  }
+}
+.flex1 {
+  animation: Drop1 3s ease-in-out 1s forwards;
+}
+.flex2 {
+  animation: Drop2 3s ease-in-out 3s forwards;
+}
+.flex3 {
+  animation: Drop3 3s ease-in-out 5s forwards;
+}
+@keyframes Drop2 {
+  0% {
+    right: -90vw;
+  }
+  
+  100% {
+    right: 0vw;
+  }
+}
+
+@keyframes Drop3 {
+  0% {
+    right: -90vw;
+  }
+  100% {
+    right: 0vw;
+  }
+}
+
+
+
+
+/*# sourceMappingURL=parcijalni.scss.map */
